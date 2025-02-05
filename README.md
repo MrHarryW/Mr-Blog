@@ -1,4 +1,4 @@
-# Slick Click Forums (Made in DJango)
+# Slick Click Forums
 
 # Top Contributors
 
