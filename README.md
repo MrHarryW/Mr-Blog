@@ -1,4 +1,4 @@
-# MR-Blog (Made in DJango)
+# Slick Click Forums (Made in DJango)
 
 # Top Contributors
 
