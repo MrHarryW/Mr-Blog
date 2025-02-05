@@ -1,8 +1,10 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en" id="Html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}" >
     <title>{% block title %}{% endblock title %}</title>
     <script>
         tailwind.config = {
@@ -89,5 +91,5 @@
     {% endblock body %}
 
 </body>
-<script src="/static/spaghetti.js"></script>
+<script src="{% static 'spaghetti.js' %}"></script>
 </html>
