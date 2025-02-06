@@ -25,4 +25,5 @@ function darkmode(){
     else{
         button.innerHTML = `<img class="w-8" src="static/dark.svg">`
     }
+    console.log(button.innerHTML)
 }
