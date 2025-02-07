@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}" >
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon_light.ico' %}" >
     <title>{% block title %}{% endblock title %}</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -27,7 +27,7 @@
           <div class="py-3 px-3 rounded-xl border-2 border-black dark:border-white w-full dark:bg-slate-600 shadow-lg">
             <div class="flex justify-between items-center">
               <div class="flex justify-items-center items-center gap-2">
-                <img class="w-12" src="static/favicon.ico" alt="">
+                <div id="logo"><img class="w-12" src="static/favicon_light.ico" alt=""></div>
                 <p class=" font-semibold text-white"><p class="text-blue-500 font-bold">Slick </p><p class="text-green-500 font-bold">Click </p><p class="text-black font-bold dark:text-white">Forums</p></p>
                 <div style="position: relative;">
                   <input class="rounded-3xl py-3 px-3 outline-none text-xs w-[350px] pr-10 hidden lg:block md:block focus:border-2 border-2 border-slate-600 dark:border-slate-200 font-bold" placeholder="Search">
